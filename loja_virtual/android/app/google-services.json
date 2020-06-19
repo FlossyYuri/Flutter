@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "404484743766",
+    "firebase_url": "https://flossychatonline.firebaseio.com",
+    "project_id": "flossychatonline",
+    "storage_bucket": "flossychatonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404484743766:android:13c06b686bde34d644d1f7",
+        "android_client_info": {
+          "package_name": "mz.co.chillstudio.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404484743766-to1jsbe2feocbcve11p5mliptebqr5ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.chillstudio.loja_virtual",
+            "certificate_hash": "fbd13287f6e3a95cc7fbd5c6336af80de3f69545"
+          }
+        },
+        {
+          "client_id": "404484743766-gqc469i3e22hjcg0qgnsq41imkpjla1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWBbiBrPO_5BW-Jcl6DL33QSvyGMIF3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404484743766-gqc469i3e22hjcg0qgnsq41imkpjla1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404484743766:android:f9a4c0d9251ba02f44d1f7",
+        "android_client_info": {
+          "package_name": "mz.co.chillstudio.txs_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404484743766-cpo848q62kjbd296v4ojqncj98kntob7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.chillstudio.txs_chat",
+            "certificate_hash": "fbd13287f6e3a95cc7fbd5c6336af80de3f69545"
+          }
+        },
+        {
+          "client_id": "404484743766-gqc469i3e22hjcg0qgnsq41imkpjla1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWBbiBrPO_5BW-Jcl6DL33QSvyGMIF3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404484743766-gqc469i3e22hjcg0qgnsq41imkpjla1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "448649429065",
+    "firebase_url": "https://loja-txs-flutter.firebaseio.com",
+    "project_id": "loja-txs-flutter",
+    "storage_bucket": "loja-txs-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448649429065:android:ec744c68b0e3a4f47bff98",
+        "android_client_info": {
+          "package_name": "mz.co.chillstudio.loja_txs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448649429065-npoutiein8dvs6mhvlafttgrm5qg7tvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.chillstudio.loja_txs",
+            "certificate_hash": "fbd13287f6e3a95cc7fbd5c6336af80de3f69545"
+          }
+        },
+        {
+          "client_id": "448649429065-h6fqgsbjhapdgmtto9o597j0fpsj1594.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAysEcMZfa9XXCm0LOp3bx7a8wM4tL1VOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448649429065-h6fqgsbjhapdgmtto9o597j0fpsj1594.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

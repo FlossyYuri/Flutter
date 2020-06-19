@@ -1,0 +1,38 @@
+android App build.gradle{
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    dependencies {
+        //implementation 'com.google.firebase:firebase-analytics:17.2.0' (just for firebase use)
+        androidTestImplementation 'androidx.test:runner:1.1.1'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    }
+
+    //apply plugin: 'com.google.gms.google-services' (just for firebase use)
+}
+
+android build.gradle{
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        //classpath 'com.google.gms:google-services:4.2.0' (just for firebase use)
+    }
+    subprojects {
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'com.android.support'
+                        && !details.requested.name.contains('multidex') ) {
+                    details.useVersion "27.1.1"
+                }
+
+                if (details.requested.group == 'androidx.core'
+                        && !details.requested.name.contains('androidx') ) {
+                    details.useVersion "1.0.1"
+                }
+            }
+        }
+    }
+}
